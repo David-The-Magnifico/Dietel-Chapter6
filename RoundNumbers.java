@@ -13,6 +13,4 @@ public class RoundNumbers {
             System.out.print("Enter another double value (or enter 'quit' to exit): ");
         }
 
-        System.out.println("Exiting the program.");
-    }
-}
+       
