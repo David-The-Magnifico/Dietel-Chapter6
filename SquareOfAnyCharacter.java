@@ -10,3 +10,12 @@ public class SquareOfAnyCharacter {
         squareOfAnyCharacter(side, fillCharacter);
     }
 
+    public static void squareOfAnyCharacter(int side, char fillCharacter) {
+        for (int i = 0; i < side; i++) {
+            for (int j = 0; j < side; j++) {
+                System.out.print(fillCharacter);
+            }
+            System.out.println();
+        }
+    }
+}
