@@ -8,12 +8,4 @@ public class DivisibleBy5 {
             System.out.print("Enter an integer: ");
             int num = scanner.nextInt();
 
-            boolean isDivisibleBy5 = isDivisible(num);
-            System.out.println(num + " is divisible by 5: " + isDivisibleBy5);
-        }
-    }
-
-    public static boolean isDivisible(int number) {
-        return number % 5 == 0;
-    }
-}
+     
