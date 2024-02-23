@@ -1,12 +1,4 @@
-import java.util.Scanner;
 
-public class RoundingNumbers {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Enter a double value (or enter 'quit' to exit): ");
-        while (scanner.hasNextDouble()) {
-            double x = scanner.nextDouble();
             roundToInteger(x);
             roundToTenths(x);
             roundToHundredths(x);
